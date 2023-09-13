@@ -20,5 +20,8 @@
 	    a.	如果需要生成pb格式，客户端需要设置CLIENT_PB和CLIENT_CODE_PB  
 	    b.	如果需要生成json格式，客户端需要设置CLIENT_JSON和CLIENT_CODE_JSON，服务器需要设置SERVER_JSON和SERVER_CODE_JSON  
 	    c.	如果需要生成lua格式，客户端需要设置CLIENT_LUA，服务器需要设置SERVER_LUA  
-
-
+## 支持的数据格式
+	Json：C#基础数据类型，比如short、int、float、long、float等，一维数组，二维数组，自定义数据类型
+ 	PB：跟json相同，不过不支持二维数组
+  	lua：跟json相同
+ ## 自定义数据格式
