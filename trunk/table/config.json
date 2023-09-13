@@ -1,0 +1,9 @@
+{
+"EXCEL":"../excel",
+"CLIENT_CODE_JSON":"../../client/Assets/Script/Json",
+"CLIENT_JSON":"../../client/Assets/Resources/data",
+"SERVER_CODE_JSON":"../../server/table",
+"SERVER_JSON": "../../server/data",
+"NAMESPACE":"tab",
+EXTENSION:[".xls",".xlsx",".xlsm"],
+}
