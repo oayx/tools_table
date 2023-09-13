@@ -24,4 +24,8 @@
 	Json：C#基础数据类型，比如short、int、float、long、float等，一维数组，二维数组，自定义数据类型
  	PB：跟json相同，不过不支持二维数组
   	lua：跟json相同
- ## 自定义数据格式
+ ## 自定义数据格式(第一步和第二步是生成pb和json需要的做法)
+	第一步：工具目录编辑自己的class，参考table\Tool\common\json目录下的CustomTable.cs和CustomUnityTable.cs  
+ 	第二步：把第一步编辑完的class，拷贝到游戏目录(不拷贝过来，第三步生成代码后会编译错误)  
+  	第三步：在excel使用自定义的类型，参考TestTable.xlsx里的vector3  
+## excel配置方式
