@@ -17,9 +17,9 @@
 		生成代码.bat：生成代码，如果只是修改表结构，没有修改数据，可以用  
 		生成代码+打资源.bat：生成代码的同时也重新生成资源  
 	附：客户端支持pb、json、lua三种格式；服务器支持json、lua两种格式  
-	    a.	如果需要生成pb格式，客户端需要设置CLIENT_PB和CLIENT_CODE_PB  
-	    b.	如果需要生成json格式，客户端需要设置CLIENT_JSON和CLIENT_CODE_JSON，服务器需要设置SERVER_JSON和SERVER_CODE_JSON  
-	    c.	如果需要生成lua格式，客户端需要设置CLIENT_LUA，服务器需要设置SERVER_LUA  
+	    a.	如果需要生成pb格式，客户端设置CLIENT_PB和CLIENT_CODE_PB  
+	    b.	如果需要生成json格式，客户端设置CLIENT_JSON和CLIENT_CODE_JSON，服务器设置SERVER_JSON和SERVER_CODE_JSON  
+	    c.	如果需要生成lua格式，客户端设置CLIENT_LUA，服务器设置SERVER_LUA  
 ## 支持的数据格式
 	Json：C#基础数据类型，比如string、short、int、float、long、float等，一维数组，二维数组，自定义数据类型
  	PB：跟json相同，不过不支持二维数组
